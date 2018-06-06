@@ -1,0 +1,41 @@
+/*
+Theme Name: Admiral Theme
+Theme URI: http://facebook.com/admiraljota
+Author: João Paulo Cruz
+Author URI: http://facebook.com/admiraljota
+Version: 1.0;
+Description: Base padrão para criação de temas usando o bootstrap 4
+License: GNU General Public License v2 or later
+Tags: tema padrão, base
+*/
+
+/*STYLES GERAIS */
+@import url('css/style.css');
+/*STYLES PARA A HOME*/
+@import url('css/blog-home.css');
+/*STYLES PARA O AUTOR*/
+@import url('css/autor.css');
+/*STYLES PARA A SINGLE*/
+@import url('css/single.css');
+/*STYLES MIDIAS QUERIES*/
+@import url('css/wordpress-style.css');
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+#facebook {
+    width: 100%;
+}
+
+.main-single {
+  zoom: 1;
+}
+
+
+
+
+
+

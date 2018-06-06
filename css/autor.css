@@ -1,0 +1,116 @@
+.fundo-autor{
+ width: 100%;
+ margin-top: 40px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ display: table;
+ background-color: #000;
+ position: relative;
+ margin-bottom: 30px;
+}
+
+.descricao,
+.redesautor,
+.autor-name,
+.avatar-autor{
+  z-index: 1000;
+}
+
+.descricao{
+  color: #fff;
+}
+
+.avatar-autor img{
+	border-radius: 50%;
+  border: 3px solid #dd1f46;
+}
+
+.redesautor a {
+  color: #fff;
+  font-weight: bold;
+  z-index: 4;
+  padding-right: 15px;
+  transition: all .3s ease;
+}
+
+.redesautor a:hover {
+  color: #dd1f46;
+}
+
+.redesautor{
+  margin-top: 15px;
+  z-index: 2;
+}
+
+.box-shadow{
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 4%, rgba(0,0,0,0.5) 32%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(4%,rgba(0,0,0,0.1)), color-stop(32%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  display: table;
+  right: 0px;
+  bottom: 0px;
+}
+
+
+.avatar-autor{
+  width: 100px;
+  height: 100px;
+  margin:20px;
+  float: left;
+}
+
+.autor{
+  margin-bottom: 30px;
+  display: table;
+  width: 100%;
+  max-height: 200px;
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.background-autor {
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+  top: 0;
+  position: absolute;
+}
+
+p.bio{
+  padding: 20px;
+}
+
+.autor-name{
+  font-size: 18px;
+  padding-top: 15px;
+  color: #fff;
+}
+
+.autor p{
+  font-style: italic;
+}
+
+.autor p:before{
+  content: "» ";
+}
+
+.autor-name a{
+  text-transform: capitalize;
+  font-weight: bold;
+  color: yellow;
+  padding-bottom: 5px;
+  z-index: 2;
+}
+
+
