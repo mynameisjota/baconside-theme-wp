@@ -46,6 +46,10 @@ get_header();  ?>
 					<?php get_template_part('content/related-posts-template'); ?>
 					<?php get_template_part('content/content-autorbox'); ?>
 
+					<div class="comentarios">
+						<?php comments_template(); ?>
+					</div>
+
 				</div>
 
 				<aside class="col-lg-4 col-md-4 col-sm-12">
