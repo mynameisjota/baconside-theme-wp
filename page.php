@@ -1,32 +1,30 @@
-<?php get_header(); ?>
+<?php get_header();  ?>
 
-<main class="wrapper">
-	<div class="container">
-
-		<section class="main-body">
+<div class="container">
+	
 	<div class="row">
-		<main class="col-lg-8 col-md-12 col-sm-12">
 
-			<h4 class="main-title">
-				Publicações Recentes
-			</h4>
+		<div class="col-lg-8 col-md-12 col sm-12">
+			<?php if ( have_posts() ) : ?>
+				<?php while ( have_posts() ) : the_post(); ?>
+					<h1 class="main-title"><?php the_title(); ?></h1>
+					<div class="main-single bg-light p-3">
 
-			<?php get_template_part('content/content-article') ?>
+								<?php the_content(); ?>
 
-			<?php if ( function_exists('wp_bootstrap_pagination') )
-				wp_bootstrap_pagination();
-			?>
-		</main>
+							<?php endwhile; ?>
+						<?php endif; ?>
+					</div>
+					<div class="clearfix"></div>
 
-		<aside class="main-sidebar col-lg-4 col-md-12 col-sm-12">
-			<h4 class="text-color-primary font-weight-light mb-4">
-				<?php dynamic_sidebar('sidebar'); ?>
-			</h4>
-		</aside>
-	</div> <!-- row -->      
-</section>
 
-	</div> <!-- Container -->
-</main> <!-- Wrapper -->
+				</div>
+				<aside class="col-lg-4 col-md-4 col-sm-12">
+					<?php dynamic_sidebar('sidebar'); ?>
+				</aside>
+			</div>
 
-<?php get_footer(); ?>
+
+		</div>
+
+		<?php get_footer(); ?>

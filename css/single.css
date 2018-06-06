@@ -1,3 +1,8 @@
+.main-single {
+  zoom: 1;
+  min-height: 500px;
+}
+
 .alert{
   text-transform: uppercase;
   color: #fff;
