@@ -1,6 +1,8 @@
 .main-single {
   zoom: 1;
   min-height: 500px;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .alert{
@@ -60,8 +62,8 @@ h1.title-single{
 
 .breadcrumb-item.active,
 .breadcrumb a {
-    color: #fff;
-    text-transform: capitalize;
+  color: #fff;
+  text-transform: capitalize;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {

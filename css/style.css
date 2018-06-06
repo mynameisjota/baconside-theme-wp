@@ -67,6 +67,45 @@ body {
 
 /*FOOTER*/
 
+.copy-left p{
+  margin: 0;
+  color: #888;
+}
+
+.cred-logo svg{
+  width: 150px;
+}
+
+.cred-logo{
+  float: right;
+}
+@media (max-width: 768px) {
+  .cred-logo{
+    float: none;
+    margin-top: 20px;
+  }
+
+  .copy-left{
+    text-align: center;
+  }
+}
+
+.cred-logo p{
+  font-size: 12px;
+  padding-bottom: 5px;
+  margin: 0;
+  color: #888;
+}
+
+.footer-2 a{
+  color: #dd1f46;
+  font-weight: bold;
+}
+
+.footer-2{
+  padding: 10px 0;
+}
+
 aside li{
   list-style-type: none;
 }
