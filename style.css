@@ -47,6 +47,39 @@ body{
 */
 
 
+.current,
+span.dots {
+    z-index: 1;
+    color: #fff;
+    background-color: #560d1b!important;
+    border-color: #560d1b;
+    position: relative;
+    display: block;
+    padding: .4rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+}
+
+span.dots{
+background-color:#fff!important;
+color:#333;
+}
+
+img{
+height:auto
+}
+
+@media (max-width: 768px) {
+  aside{
+    display: none;
+  }
+}
+
+.aligncenter{
+text-align:center;
+}
+
+
 
 
 

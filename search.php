@@ -3,7 +3,7 @@
 <main class="container mt-5">
   <div class="row">
 
-    <div class="col-sm">
+    <div class="col-lg-8 col-md-12 col-sm-12">
       <div id="content" role="main">
         <header>
           <h1 class="main-title">
@@ -14,7 +14,11 @@
       </div><!-- /#content -->
     </div>
 
-    <?php get_sidebar(); ?>
+    <aside class="main-sidebar col-lg-4 col-md-12 col-sm-12">
+    <h4 class="text-color-primary font-weight-light mb-4">
+      <?php dynamic_sidebar('sidebar'); ?>
+    </h4>
+  </aside>
 
   </div><!-- /.row -->
 </main><!-- /.container-responsive -->

@@ -6,7 +6,7 @@
 
             <div class="col-sm-12 text-center">
                 <div class="logo-mascote-footer pb-3 pt-3">
-                    <a href="<?php echo esc_url( home_url('/') ); ?>">
+                    <a href="<?php echo esc_url( home_url('/') ); ?>" title="Bacon Side">
                         <img src="<?php bloginfo('template_directory'); ?> /logo-mascote-baconside.png" border="0" alt="baconsideoficial@gmail.com">
                     </a>
                 </div>

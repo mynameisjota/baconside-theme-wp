@@ -53,7 +53,11 @@
 
 .cat-post li{
 	list-style-type: none;
-	display: inline-block;
+	display: none;
+}
+
+.cat-post li:first-child{
+  display: inline-block;
 }
 
 .cat-post a{

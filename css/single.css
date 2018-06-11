@@ -110,3 +110,17 @@ h1.title-single{
 
 }
 
+.relacionados-lista .thumb{
+  max-height: 120px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .breadcrumb-item.active, .breadcrumb a{
+  font-size: 14px;
+}
+
+}
+

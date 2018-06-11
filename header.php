@@ -13,7 +13,7 @@
     <div class="container ">
       <div class="bacon-logo">
         <div class="d-flex justify-content-center">
-          <a href="<?php echo home_url(); ?>"><?php the_custom_logo(); ?></a>
+          <a href="<?php echo home_url(); ?>" title="Bacon Side"><?php the_custom_logo(); ?></a>
         </div> 
       </div>
     </div>
@@ -39,7 +39,7 @@
       <nav class="navbar navbar-expand-md navbar-light vermelho-principal pb-0 pt-0">
         <div class="container">
 
-          <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>">
+          <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>" title="Bacon Side">
            <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
            viewBox="0 0 500 225" style="enable-background:new 0 0 500 225;" xml:space="preserve">

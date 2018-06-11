@@ -43,7 +43,7 @@ get_header();  ?>
 							<?php endwhile; ?>
 						<?php endif; ?>
 					</div>
-					<?php get_template_part('content/related-posts-template'); ?>
+					<?php wcr_related_posts(); ?>
 					<?php get_template_part('content/content-autorbox'); ?>
 
 					<div class="comentarios">
