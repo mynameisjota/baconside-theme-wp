@@ -13,11 +13,6 @@
 			if($slider->have_posts()):
 				$count = $slider->found_posts;
 				?>
-				<ol class="carousel-indicators">
-					<?php for($i = 0; $i < $count ;  $i++) { ?>
-						<li data-target="#main-slider" data-slide-to="<?php echo $i; ?>" class="<?php echo ($i == 0) ? 'active' : ''?>"></li>
-					<?php } ?>
-				</ol> <!--.carousel-indicators-->
 
 				<div class="carousel-inner" role="listbox">
 					<?php $i = 0; while($slider->have_posts()): $slider->the_post(); ?>
