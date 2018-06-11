@@ -4,8 +4,13 @@
 
 ### Sobre o Bacon Side
 
-Site que traz as principais novidades da cultura POP. Criado em 2015/2016 por alguns amigos e eu.
-Eu sou o responsável por cuidar dos códigos do site. Ás vezes me aventuro em um post ou outro.
+Um grupo de amigos com ideias em comum, tiveram a ideia de criar um site, em que pudessem falar sobre tudo aquilo que mais gostam
+de fazer, assim surgiu a iniciativa Bacon Side, que teve seu início no final de 2015. Após esse breve período de tempo, podemos
+olhar para trás com orgulho, porque todo erro, todo acerto e todos os obstáculos superados nos deixaram mais fortes, e
+tudo que aprendemos valeu muito a pena. Fortalecemos nossa amizade e a diversão começou a tomar proporções que não
+imaginávamos.
+A cada dia que passa, vamos encrementando e aperfeiçoando nosso conteúdo e vamos continuar batalhando para conquistar o nosso espaço, 
+contribuir com informações relevantes e conteúdo de qualidade.
 
 ## Sobre o Tema 
 
@@ -16,5 +21,9 @@ Eu sou o responsável por cuidar dos códigos do site. Ás vezes me aventuro em 
 - Custom background img para o autor
 - Header Logo
 - Navbrand Logo
+
+Todos os direitor reservados!
+
+Entre em contato: webdevjota@gmail.com
 
 
