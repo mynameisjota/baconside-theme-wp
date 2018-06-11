@@ -38,13 +38,13 @@
 					</div> <!--.carouse-inner-->
 
 				<?php endif;  wp_reset_postdata(); ?>
-				                <a href="#main-slider" class="carousel-control-prev" data-slide="prev">
+				<a href="#main-slider" class="carousel-control-prev" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">Próximo</span>
                 </a>
                 <a href="#main-slider" class="carousel-control-next" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">Anterior</span>
                 </a>
 			</div>
 			

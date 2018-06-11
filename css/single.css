@@ -122,5 +122,18 @@ h1.title-single{
   font-size: 14px;
 }
 
+h1.title-single{
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.main-single .alert{
+  font-size: 14px;
+}
+
+.relacionados-lista .thumb{
+  max-height: 220px;
+}
+
 }
 

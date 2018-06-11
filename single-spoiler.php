@@ -19,7 +19,7 @@ get_header();  ?>
 					</div>
 
 
-					<div class="main-singles bg-light p-3">
+					<div class="main-single bg-light p-3">
 						<h1 class="title-single mb-3"><?php the_title(); ?></h1>
 
 						<div class="single-post-info mb-4">

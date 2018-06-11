@@ -289,7 +289,7 @@ a:hover{
     padding: 1px 5px;
     font-size: 1rem;
     line-height: 1.5;
-    color: #495057;
+    color: #fff!important;
     background-color: transparent;
     background-clip: padding-box;
     border: none;
@@ -304,6 +304,14 @@ a:hover{
     border:none;
     outline: 0;
     box-shadow: none;
+}
+
+@media only screen and (max-width: 768px)  {
+
+  .form-inline {
+    margin-bottom: 15px;
+}
+  
 }
 
 /*FIM NAVBAR */
